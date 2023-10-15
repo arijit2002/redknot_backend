@@ -1,0 +1,32 @@
+{
+  "name": "redknot-backend",
+  "version": "1.0.0",
+  "description": "RedKnot Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server",
+    "data:import": "node seeder",
+    "data:destroy": "node seeder -d"
+  },
+  "author": "captcha aka Chaitak",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "messagebird": "^3.8.1",
+    "mongoose": "^6.7.2",
+    "node-geocoder": "^4.2.0",
+    "nodemon": "^2.0.20",
+    "otp-generator": "^4.0.0",
+    "stripe": "^12.7.0",
+    "twilio": "^3.83.1"
+  }
+}
